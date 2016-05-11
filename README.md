@@ -8,11 +8,11 @@ Documents for module 1 and 2:
 	
 **Some notes on Installation**
 
-	Step 1. ```source venv/bin/activate`
-			source venv/bin/activate```
+	Step 1. `source venv/bin/activate\``
+		`source venv/bin/activate`
 			
-	Step 4. ```export PYTHONPATH="\$VIRTUAL_ENV/modules:$PYTHONPATH"
-			export PYTHONPATH="$VIRTUAL_ENV/modules:$PYTHONPATH"```
+	Step 4. `export PYTHONPATH="\$VIRTUAL_ENV/modules:$PYTHONPATH"`
+		`export PYTHONPATH="$VIRTUAL_ENV/modules:$PYTHONPATH"`
 
 ## Module 3 set up
 
@@ -40,7 +40,8 @@ A folder name **GPCRmodule3** containing necessary source files will be cloned i
 
 Configuration file is provided in venv/modules/module3/module/conf/confModule3.json.
 However, this file is not completed. Only templates library is available, other arguments are on the way ...
-```{
+```
+{
 
     "envVariables": null, 
     
@@ -71,6 +72,7 @@ However, this file is not completed. Only templates library is available, other 
     }
     
 }
+
 ```
 * modellerDir: the folder containing your output folder of pyproteins.
 
