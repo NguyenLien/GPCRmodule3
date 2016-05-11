@@ -8,11 +8,9 @@ Documents for module 1 and 2:
 	
 **Some notes on Installation**
 
-	Step 1. `source venv/bin/activate\``
-		`source venv/bin/activate`
+	Step 1. `source venv/bin/activate`
 			
-	Step 4. `export PYTHONPATH="\$VIRTUAL_ENV/modules:$PYTHONPATH"`
-		`export PYTHONPATH="$VIRTUAL_ENV/modules:$PYTHONPATH"`
+	Step 4. `export PYTHONPATH="$VIRTUAL_ENV/modules:$PYTHONPATH"`
 
 ## Module 3 set up
 
@@ -42,37 +40,21 @@ Configuration file is provided in venv/modules/module3/module/conf/confModule3.j
 However, this file is not completed. Only templates library is available, other arguments are on the way ...
 ```
 {
-
     "envVariables": null, 
-    
     "executable": null, 
-    
     "modellerDir": [
-    
         "/home/maiage/tplnguyen/Documents/GPCR/test_usage_module_1/Threading2/models"
-        
     ], 
-    
     "templateDir": [
-    
         "/home/maiage/tplnguyen/Documents/GPCR/testmodule2/templates"
-        
     ], 
-    
     "templateLibrary": {
-    
         "or1g1_human_1u19a_03": "/home/maiage/tplnguyen/Documents/GPCR/test_usage_module_1/Threading2/models/hhAlign_1/OR1G1_HUMAN.B99990003.pdb", 
-        
         "or1g1_human_1u19a_08": "/home/maiage/tplnguyen/Documents/GPCR/test_usage_module_1/Threading2/models/hhAlign_1/OR1G1_HUMAN.B99990008.pdb", 
-        
         "or1g1_human_2rh1a_05": "/home/maiage/tplnguyen/Documents/GPCR/test_usage_module_1/Threading2/models/hhAlign_0/OR1G1_HUMAN.B99990005.pdb", 
-        
         "or1g1_human_2rh1a_07": "/home/maiage/tplnguyen/Documents/GPCR/test_usage_module_1/Threading2/models/hhAlign_0/OR1G1_HUMAN.B99990007.pdb"
-        
     }
-    
 }
-
 ```
 * modellerDir: the folder containing your output folder of pyproteins.
 
